@@ -36,10 +36,10 @@
   }
   
   .card.flipped .front {
-    transform: rotateY(0deg);
+      display: none;
   }
   
   .card.flipped .back {
-    transform: rotateY(180deg);
+      display: block;
   }
   
