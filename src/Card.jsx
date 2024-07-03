@@ -11,7 +11,7 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
   return (
     <div className="card">
       <div className={flipped ? 'flipped' : ''}>
-        <div className="front" onClick(handleClick)>{flipped ? card.number : "?"}</div>
+        <div className="front" onClick={handleClick}>{flipped ? card.number : "?"}</div>
       </div>
     </div>
   );
